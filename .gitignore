@@ -1,0 +1,28 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+bin/
+pkg/
+
+# Output files
+*.exe
+*.test
+*.prof
+
+# Ignore everything in the vendor directory, except the root
+/vendor/*
+!/vendor/
+
+# IDE-specific files
+.idea/
+
+# Testing and coverage files
+*.cover
+*.out
+
+# Dependency files
+Gopkg.lock
